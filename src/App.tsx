@@ -73,20 +73,6 @@ export default function App() {
         </svg>
       </div>
 
-      {/* Header */}
-      <motion.header 
-        initial={{ opacity: 0, y: -20 }}
-        animate={{ opacity: 1, y: 0 }}
-        className="relative z-20 text-center mb-6"
-      >
-        <h1 className="font-sans font-bold text-3xl md:text-4xl tracking-wide text-eca-brown-700 uppercase drop-shadow-sm flex flex-col md:flex-row items-center justify-center gap-2">
-          <span>ECA GROUP:</span>
-          <span className="font-light">INTEGRATED ECOSYSTEM</span>
-        </h1>
-        <div className="w-64 h-px bg-eca-brown-500/50 mx-auto mt-2" />
-        <div className="w-48 h-px bg-eca-brown-500/30 mx-auto mt-1" />
-      </motion.header>
-
       {/* Main Diagram Area (Desktop) */}
       <main className="relative grow w-full max-w-[1200px] aspect-[4/3] mx-auto z-10 hidden md:block mt-8">
         <svg 
