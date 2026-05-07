@@ -61,7 +61,7 @@ export default function App() {
   const selectedNode = selectedNodeId ? NODES.find(n => n.id === selectedNodeId) : null;
 
   return (
-    <div className="relative min-h-screen flex flex-col items-center p-6 md:p-12 overflow-hidden selection:bg-eca-brown-900/10">
+    <div className={`relative flex flex-col items-center w-full selection:bg-eca-brown-900/10 ${!selectedNode ? 'min-h-[100dvh] md:h-screen overflow-y-auto md:overflow-hidden p-4 md:px-8 md:py-4' : 'min-h-screen overflow-x-hidden p-4 md:p-12'}`}>
       {/* Background Decorative Pattern */}
       <div className="fixed inset-0 pointer-events-none circuit-pattern z-0" aria-hidden="true">
         <svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
@@ -84,10 +84,13 @@ export default function App() {
             animate={{ opacity: 1, scale: 1 }}
             exit={{ opacity: 0, scale: 1.05 }}
             transition={{ duration: 0.4 }}
-            className="w-full flex-grow flex flex-col"
+            className="w-full flex-grow flex flex-col items-center min-h-0"
           >
             {/* Main Diagram Area (Desktop) */}
-            <main className="relative grow w-full max-w-[1200px] aspect-[4/3] mx-auto z-10 hidden md:block mt-8">
+            <main 
+              className="relative aspect-[4/3] mx-auto z-10 hidden md:block my-auto"
+              style={{ width: '100%', maxWidth: 'min(1200px, calc((100vh - 5rem) * 4 / 3))' }}
+            >
         <svg 
           className="absolute inset-0 w-full h-full pointer-events-none" 
           viewBox="0 0 1200 900" 
@@ -355,7 +358,7 @@ export default function App() {
       <motion.div 
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
-        className="md:hidden w-full max-w-sm flex flex-col gap-6 pb-12 relative z-10"
+        className="md:hidden w-full max-w-sm flex flex-col gap-6 pb-12 relative z-10 my-auto pt-6"
       >
         <div className="watercolor-center p-8 rounded-full aspect-square border-2 flex flex-col items-center justify-center mx-auto w-64 shadow-xl">
           <h2 className="font-sketch text-6xl font-bold text-eca-brown-900 text-center leading-tight">ECA<br/>GROUP</h2>
