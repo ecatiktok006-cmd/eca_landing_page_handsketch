@@ -21,7 +21,7 @@ export function TikTokView() {
             The Growth<br/>Engine
           </h2>
           
-          <p className="text-gray-600 font-sans text-base md:text-[17px] leading-[1.8] font-medium mb-12 max-w-xl">
+          <p className="text-gray-600 font-sans text-lg md:text-xl leading-[1.8] font-medium mb-12 max-w-xl">
             We don't just build systems; we build brands. Our marketing vertical specializes in narrative-driven growth for mobility and industrial sectors. We treat your marketing budget with architectural precision, allowing you to bypass the cost of an in-house team while accessing elite strategists. For ambitious brands ready to transition from volume-based spending to value-driven results, our precision-engineered strategies offer a clear, collaborative pathway to measurable growth.
           </p>
 

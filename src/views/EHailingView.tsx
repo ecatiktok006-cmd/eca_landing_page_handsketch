@@ -57,7 +57,7 @@ export function EHailingView({ icon }: Props) {
           SewaBeli: Ownership<br className="hidden md:block"/> Redefined
         </h2>
         
-        <p className="text-gray-600 leading-relaxed font-sans text-base md:text-lg mb-8 font-medium max-w-xl">
+        <p className="text-gray-600 leading-relaxed md:leading-relaxed font-sans text-lg md:text-xl mb-8 font-medium max-w-xl">
           We view our drivers not as renters, but as operational partners. While traditional models focus purely on vehicle leasing, our true differentiator in the gig economy is the SewaBeli (Rent-to-Own) Initiative. We have engineered a sustainable, shared-economy ecosystem designed to bridge the gap between labor and capital, creating long-term value for everyone involved.
         </p>
         
@@ -67,8 +67,8 @@ export function EHailingView({ icon }: Props) {
               <Key size={26} strokeWidth={2} />
             </div>
             <div>
-              <h4 className="font-bold text-[#004d3e] text-lg font-sans">Pathway to Ownership</h4>
-              <p className="text-gray-600 text-sm leading-relaxed mt-1 font-medium">sustainable framework that transforms everyday drivers into vehicle owners by the end of their contract.</p>
+              <h4 className="font-bold text-[#004d3e] text-xl font-sans">Pathway to Ownership</h4>
+              <p className="text-gray-600 text-base leading-relaxed mt-1 font-medium">sustainable framework that transforms everyday drivers into vehicle owners by the end of their contract.</p>
             </div>
           </div>
           
@@ -77,8 +77,8 @@ export function EHailingView({ icon }: Props) {
               <TrendingUp size={26} strokeWidth={2} />
             </div>
             <div>
-              <h4 className="font-bold text-[#004d3e] text-lg font-sans">Mutual Financial Success</h4>
-              <p className="text-gray-600 text-sm leading-relaxed mt-1 font-medium">Prioritizing partner success to ensure unprecedented fleet loyalty, operational stability, and a highly scalable model.</p>
+              <h4 className="font-bold text-[#004d3e] text-xl font-sans">Mutual Financial Success</h4>
+              <p className="text-gray-600 text-base leading-relaxed mt-1 font-medium">Prioritizing partner success to ensure unprecedented fleet loyalty, operational stability, and a highly scalable model.</p>
             </div>
           </div>
         </div>

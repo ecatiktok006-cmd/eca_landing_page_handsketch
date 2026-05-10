@@ -250,13 +250,13 @@ export default function App() {
 
           {/* Path Labels */}
           <g className="font-sketch text-[16px] font-bold tracking-widest text-eca-brown-700 uppercase fill-current">
-            <motion.text initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 1.5, duration: 0.8 }} x="600" y="165" textAnchor="middle">
+            <motion.text initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 1.5, duration: 0.8 }} x="600" y="145" textAnchor="middle">
               EMPOWER DIGITALIZATION
             </motion.text>
             <motion.text initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 2.0, duration: 0.8 }} x="600" y="320" textAnchor="middle">
               SYNERGY FLOW
             </motion.text>
-            <motion.text initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 2.5, duration: 0.8 }} x="600" y="750" textAnchor="middle">
+            <motion.text initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 2.5, duration: 0.8 }} x="600" y="770" textAnchor="middle">
               INFRASTRUCTURE & DATA
             </motion.text>
             

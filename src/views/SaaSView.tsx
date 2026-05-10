@@ -17,7 +17,7 @@ export function SaaSView() {
           <h2 className="font-sans text-4xl md:text-5xl lg:text-5xl font-bold text-[#004d3e] leading-[1.1] tracking-tight mb-8">
             Custom SaaS &<br/> Digital<br/> Transformation
           </h2>
-          <div className="space-y-6 text-gray-600 font-sans text-base md:text-[17px] leading-relaxed font-medium">
+          <div className="space-y-6 text-gray-600 font-sans text-lg md:text-xl leading-relaxed font-medium">
             <p>
               As the core architect behind ECA Group's rapid expansion, we understand that off-the-shelf software rarely fits a growing business. We are not just a mobility company; we are a SaaS (Software as a Service) Provider.
             </p>
@@ -34,36 +34,36 @@ export function SaaSView() {
           transition={{ delay: 0.3 }}
           className="w-full lg:w-7/12 grid grid-cols-1 md:grid-cols-2 gap-6"
         >
-          <div className="bg-[#f5fbfa] p-8 rounded-[2rem] flex flex-col justify-center border border-[#004d3e]/5 hover:shadow-lg transition-shadow">
+          <div className="bg-blue-100 p-8 rounded-[2rem] flex flex-col justify-center border border-[#004d3e]/5 hover:shadow-lg transition-shadow">
             <div className="text-[#004d3e] mb-6">
               <Bot size={32} strokeWidth={2} />
             </div>
-            <h4 className="font-bold text-[#004d3e] text-lg font-sans mb-3 tracking-tight">AI-Driven Workflows</h4>
-            <p className="text-gray-600 text-[15px] leading-relaxed font-medium">Automate your customer service and replace manual operational bottlenecks with high-efficiency, intelligent automation.</p>
+            <h4 className="font-bold text-[#004d3e] text-xl font-sans mb-3 tracking-tight">AI-Driven Workflows</h4>
+            <p className="text-gray-600 text-base md:text-lg leading-relaxed font-medium">Automate your customer service and replace manual operational bottlenecks with high-efficiency, intelligent automation.</p>
           </div>
           
-          <div className="bg-[#f5fbfa] p-8 rounded-[2rem] flex flex-col justify-center border border-[#004d3e]/5 hover:shadow-lg transition-shadow">
+          <div className="bg-emerald-100 p-8 rounded-[2rem] flex flex-col justify-center border border-[#004d3e]/5 hover:shadow-lg transition-shadow">
             <div className="text-[#004d3e] mb-6">
               <Database size={32} strokeWidth={2} />
             </div>
-            <h4 className="font-bold text-[#004d3e] text-lg font-sans mb-3 tracking-tight">Inventory Optimization</h4>
-            <p className="text-gray-600 text-[15px] leading-relaxed font-medium">Streamline your physical and digital inventory management through custom-built, real-time tracking web applications.</p>
+            <h4 className="font-bold text-[#004d3e] text-xl font-sans mb-3 tracking-tight">Inventory Optimization</h4>
+            <p className="text-gray-600 text-base md:text-lg leading-relaxed font-medium">Streamline your physical and digital inventory management through custom-built, real-time tracking web applications.</p>
           </div>
 
-          <div className="bg-[#f5fbfa] p-8 rounded-[2rem] flex flex-col justify-center border border-[#004d3e]/5 hover:shadow-lg transition-shadow">
+          <div className="bg-amber-100 p-8 rounded-[2rem] flex flex-col justify-center border border-[#004d3e]/5 hover:shadow-lg transition-shadow">
             <div className="text-[#004d3e] mb-6">
               <Cloud size={32} strokeWidth={2} />
             </div>
-            <h4 className="font-bold text-[#004d3e] text-lg font-sans mb-3 tracking-tight">Bespoke Booking Ecosystems</h4>
-            <p className="text-gray-600 text-[15px] leading-relaxed font-medium">Architect customized, end-to-end booking platforms tailored specifically to the unique logistical demands of your business.</p>
+            <h4 className="font-bold text-[#004d3e] text-xl font-sans mb-3 tracking-tight">Bespoke Booking Ecosystems</h4>
+            <p className="text-gray-600 text-base md:text-lg leading-relaxed font-medium">Architect customized, end-to-end booking platforms tailored specifically to the unique logistical demands of your business.</p>
           </div>
 
-          <div className="bg-[#f5fbfa] p-8 rounded-[2rem] flex flex-col justify-center border border-[#004d3e]/5 hover:shadow-lg transition-shadow">
+          <div className="bg-purple-100 p-8 rounded-[2rem] flex flex-col justify-center border border-[#004d3e]/5 hover:shadow-lg transition-shadow">
             <div className="text-[#004d3e] mb-6">
               <Handshake size={32} strokeWidth={2} />
             </div>
-            <h4 className="font-bold text-[#004d3e] text-lg font-sans mb-3 tracking-tight">B2B Digital Synergy</h4>
-            <p className="text-gray-600 text-[15px] leading-relaxed font-medium">Seamlessly integrate your operational workflows with our proprietary software to scale your enterprise alongside ours.</p>
+            <h4 className="font-bold text-[#004d3e] text-xl font-sans mb-3 tracking-tight">B2B Digital Synergy</h4>
+            <p className="text-gray-600 text-base md:text-lg leading-relaxed font-medium">Seamlessly integrate your operational workflows with our proprietary software to scale your enterprise alongside ours.</p>
           </div>
         </motion.div>
       </div>
@@ -79,7 +79,7 @@ export function SaaSView() {
         <h2 className="font-sans text-4xl md:text-5xl font-bold text-[#004d3e] leading-[1.1] tracking-tight mb-8 text-center max-w-4xl">
           Daily Rentals & Intelligent Fleet<br className="hidden md:block" /> Management
         </h2>
-        <div className="text-gray-600 font-sans text-base md:text-lg leading-relaxed font-medium text-center max-w-4xl mb-16 px-4">
+        <div className="text-gray-600 font-sans text-lg md:text-xl leading-relaxed font-medium text-center max-w-4xl mb-16 px-4">
           <p>
             At ECA Group, our daily, weekly, and monthly car rental services for private clients are driven by uncompromising quality and safety. However, the secret to our scale lies in our Built-In Fleet Management Architecture. Our proprietary SaaS platform provides real-time telemetry, predictive maintenance, and optimized routing for global fleet operators. This level of operational control minimizes downtime, maximizes asset lifespan, and provides absolute transparency. It is exactly this standard of uncompromising operational clarity that naturally draws investors, stakeholders, and industry peers into our ecosystem.
           </p>
@@ -91,18 +91,18 @@ export function SaaSView() {
           {/* Left Tabs */}
           <div className="w-full lg:w-1/3 flex flex-col gap-3">
             <div className="bg-white p-6 rounded-2xl border-l-[3px] border-[#004d3e] shadow-lg relative">
-              <h4 className="font-bold text-[#004d3e] text-[17px] font-sans mb-2 tracking-tight">Live Telemetry</h4>
-              <p className="text-gray-600 text-sm leading-relaxed font-medium">Real-time tracking of vehicle health and location across continents.</p>
+              <h4 className="font-bold text-[#004d3e] text-lg font-sans mb-2 tracking-tight">Live Telemetry</h4>
+              <p className="text-gray-600 text-base leading-relaxed font-medium">Real-time tracking of vehicle health and location across continents.</p>
             </div>
             
             <div className="p-6 rounded-2xl hover:bg-white/60 transition-colors border-l-[3px] border-transparent cursor-pointer">
-              <h4 className="font-bold text-gray-500 text-[17px] font-sans mb-2 tracking-tight">Asset Lifecycle</h4>
-              <p className="text-gray-400 text-sm leading-relaxed font-medium">Predictive modeling for depreciation and part replacement cycles.</p>
+              <h4 className="font-bold text-gray-500 text-lg font-sans mb-2 tracking-tight">Asset Lifecycle</h4>
+              <p className="text-gray-400 text-base leading-relaxed font-medium">Predictive modeling for depreciation and part replacement cycles.</p>
             </div>
 
             <div className="p-6 rounded-2xl hover:bg-white/60 transition-colors border-l-[3px] border-transparent cursor-pointer">
-              <h4 className="font-bold text-gray-500 text-[17px] font-sans mb-2 tracking-tight">Eco-Analytics</h4>
-              <p className="text-gray-400 text-sm leading-relaxed font-medium">Measuring carbon offsets and efficiency gains across the fleet.</p>
+              <h4 className="font-bold text-gray-500 text-lg font-sans mb-2 tracking-tight">Eco-Analytics</h4>
+              <p className="text-gray-400 text-base leading-relaxed font-medium">Measuring carbon offsets and efficiency gains across the fleet.</p>
             </div>
           </div>
 

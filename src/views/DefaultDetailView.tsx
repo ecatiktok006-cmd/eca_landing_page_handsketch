@@ -45,7 +45,7 @@ export function DefaultDetailView({ node }: Props) {
         transition={{ delay: 0.3 }}
         className="max-w-2xl text-center space-y-6 px-4"
       >
-        <p className="text-lg md:text-xl font-sans text-eca-brown-700 leading-relaxed font-medium">
+        <p className="text-xl md:text-2xl font-sans text-eca-brown-700 leading-relaxed font-medium">
           {node.id === 'saas' && "Empowering businesses through cutting-edge SaaS platforms, streamlining operations, and scaling growth potential."}
           {node.id === 'tiktok' && "Driving massive engagement and brand awareness through viral TikTok marketing strategies, content creation, and influencer partnerships."}
           {node.id === 'daily' && "Providing accessible and dynamic daily car rental services across multiple cities to enhance travel flexibility."}

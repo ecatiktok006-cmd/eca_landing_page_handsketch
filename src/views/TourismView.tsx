@@ -31,7 +31,7 @@ export function TourismView() {
             <img src="https://images.unsplash.com/photo-1540541338287-41700207dee6?auto=format&fit=crop&q=80&w=1200" alt="Resort" className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
             <div className="absolute inset-0 z-20 p-8 md:p-10 flex flex-col justify-end bg-gradient-to-t from-black/80 via-black/30 to-transparent">
               <h3 className="text-white text-3xl font-bold font-sans mb-3 tracking-tight">Flexible Tourist Packages</h3>
-              <p className="text-white/90 text-sm md:text-base font-medium max-w-md leading-relaxed">Seamless, budget-friendly transport solutions tailored for domestic and international travelers.</p>
+              <p className="text-white/90 text-base md:text-lg font-medium max-w-md leading-relaxed">Seamless, budget-friendly transport solutions tailored for domestic and international travelers.</p>
             </div>
           </motion.div>
 
@@ -46,7 +46,7 @@ export function TourismView() {
             <img src="https://images.unsplash.com/photo-1556761175-4b46a572b786?auto=format&fit=crop&q=80&w=800" alt="Corporate" className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
             <div className="absolute inset-0 z-20 p-8 flex flex-col justify-end bg-gradient-to-t from-black/80 via-black/30 to-transparent">
               <h3 className="text-white text-2xl font-bold font-sans mb-2 tracking-tight">Corporate Mobility</h3>
-              <p className="text-white/90 text-[13px] md:text-sm font-medium leading-relaxed">Providing a scalable, reliable logistical backbone for corporate delegations and events.</p>
+              <p className="text-white/90 text-sm md:text-base font-medium leading-relaxed">Providing a scalable, reliable logistical backbone for corporate delegations and events.</p>
             </div>
           </motion.div>
 
@@ -61,7 +61,7 @@ export function TourismView() {
             <img src="https://images.unsplash.com/photo-1498623116890-37e912163d5d?auto=format&fit=crop&q=80&w=800" alt="Ocean" className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
             <div className="absolute inset-0 z-20 p-8 flex flex-col justify-end bg-gradient-to-t from-[#004d3e]/90 via-black/40 to-transparent">
               <h3 className="text-white text-2xl font-bold font-sans mb-3 tracking-tight">Digital Infrastructure</h3>
-              <p className="text-white/90 text-sm font-medium leading-relaxed">Ensuring frictionless experiences powered by proprietary tech, from booking to final destination.</p>
+              <p className="text-white/90 text-base font-medium leading-relaxed">Ensuring frictionless experiences powered by proprietary tech, from booking to final destination.</p>
             </div>
           </motion.div>
 
@@ -74,7 +74,7 @@ export function TourismView() {
           >
             <div>
               <h3 className="text-white text-3xl font-bold font-sans mb-5 tracking-tight">MOTAC-Certified Experiences</h3>
-              <p className="text-[#a1c4bc] text-[15px] md:text-base leading-[1.7] font-medium max-w-2xl font-sans">
+              <p className="text-[#a1c4bc] text-lg leading-[1.7] font-medium max-w-2xl font-sans">
                 Backed by our official licensing from the Ministry of Tourism, Arts and Culture Malaysia (MOTAC), ECA Group applies our logistical mastery to the travel sector. We provide seamless, budget-friendly, and highly flexible transport packages for domestic and international tourists, as well as corporate delegations.
               </p>
             </div>
